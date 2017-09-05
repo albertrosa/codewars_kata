@@ -1,1 +1,4 @@
 .idea/*
+*.pyc
+.idea/
+find_the_odd_int/find_it.pyc
