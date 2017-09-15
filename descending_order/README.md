@@ -1,16 +1,12 @@
-# Descending Order
+# find_longest
 
 ## Instructions
-Your task is to make a function that can take any non-negative integer as a argument and return it with it's digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+Find the number with the most digits.
 
-Examples:
+If two numbers in the argument array have the same number of digits, return the first one in the array.
 
-Input: `21445` Output: `54421`
-
-Input: `145263` Output: `654321`
-
-Input: `1254859723` Output: `9875543221`
+https://www.codewars.com/kata/most-digits/train/python
 
 ## Execute Test
 
-`python -m unittest -v descending_order`
+`python -m unittest -v find_longest`
